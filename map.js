@@ -22,7 +22,7 @@
   ];
 
   if (image) {
-    image.src = '/images/iran-map-moshanir.svg';
+    image.src = 'images/iran-map-moshanir.svg';
     image.alt = 'نقشه ساده ایران و پراکندگی پروژه‌های تدبیر نیروی آتی';
   }
   wrap.querySelectorAll('.iran-map-point-layer,.iran-map-geo').forEach(function (item) { item.remove(); });
